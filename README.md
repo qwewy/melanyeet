@@ -1,5 +1,5 @@
 # melanyeet
-A gag unix command for my good friend melanie.
+A gag unix-like command for my good friend melanie.
 
 ![](images/intro.png)
 
