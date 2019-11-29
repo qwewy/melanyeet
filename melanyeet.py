@@ -23,7 +23,7 @@ def get_text_bubble(inputStr=None):
   return [ line.decode('utf-8') for line in s ]
 
 def get_melanyeet():
-  with open('/Users/youngchk/Documents/img2txt/melanyeet.cow') as f:
+  with open(os.path.dirname(os.path.realpath(__file__)) + '/melanyeet.cow') as f:
     lines = f.readlines()
     for i in range(len(lines)):
       line = lines[i]
